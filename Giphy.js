@@ -15,7 +15,6 @@ btn.onclick = () => {
     q = document.getElementById('busqueda').value;
     urlComp = url + search + q + key + limit;
     getDataSearch();
-    
 }
 
 const btnTrending = document.getElementById('btn_Trending');
